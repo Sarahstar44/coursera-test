@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hello coursera</title>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--This will change the background color of the whole body-->
+
 </head>
+
 <body>
-<h1>hello</h1>
+  <!--This will give out navbar a black color and make the whole website responsive-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <!--
+      We will take the mobile(Small screen) approach here and code with that in mind
+      we make a toggle  with three horizontal bar that is collapseable
+      when the screen is small, the navbar will hide under this toggle
+    -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- This is the logo(not a must have but nice to have)-->
+      <a class="navbar-brand" href="#" style="color:yellow; font-size:30px; font-family:Forte"><b>YOLO</b></a>
+    </div>
+
+    <!--
+        This is the Navigation bar itself here.
+        The id is totally unnecessary but I like to have it for later styling purposes
+        You can also see that I have some in-line styling going on. You can do this on a stylesheet, but this is convenient for me
+        You can shift everything to the right with the navbar-right class
+    -->
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#" style="color:yellow;font-weight:bold;">HOME</a></li>
+          <li><a href="project.html" style="color:yellow;font-weight:bold;">PROJECTS</a></li>
+          <li><a href="gallery.html" style="color:yellow; font-weight:bold;">GALLERY</a></li>
+          <li><a href="about.html" style="color:yellow;font-weight:bold;">ABOUT/CONTACT</a></li>
+        </ul>
+      </div>
+
+  </div>
+</nav>
+<!--END OF NAV-->
+
+<!-- this is the left side navigation-->
+<div class="container-fluid text-center">
+  <div class="row content">
+
+    <!-- this is the right side navigation-->
+    <div class="col-sm-2 sidenav">
+
+    </div>
+
+
+    <div class="col-sm-8 text-left">
+      <h1><b>THIS IS YOUR HOMEPAGE</b></h1>
+      <p>You may be knowing your A’s and B’s and C’s, but are you educated or just literate? No rolling your eyeballs please, there is a difference. Literacy is knowing how to read and write. Education is to be able to reason, to use your ability to read and write to your benefit and to be able to gain your spectrum of knowledge by trying to surge deeper into the literate knowledge imparted to you.  We’ve had debates innumerable about why is it important for every country to increase the literacy rates of its citizens, but is merely doing that enough? No, we do not need just literate citizens, but educated ones too. We do not want to be a group of people who can read and write but make nothing out of it. Wondering what education makes of us? It makes us human, a robot can read and write to, but reason? Here are reasons why education is extremely important.You may be knowing your A’s and B’s and C’s, but are you educated or just literate? No rolling your eyeballs please, there is a difference. Literacy is knowing how to read and write. Education is to be able to reason, to use your ability to read and write to your benefit and to be able to gain your spectrum of knowledge by trying to surge deeper into the literate knowledge imparted to you.  We’ve had debates innumerable about why is it important for every country to increase the literacy rates of its citizens, but is merely doing that enough? No, we do not need just literate citizens, but educated ones too. We do not want to be a group of people who can read and write but make nothing out of it. Wondering what education makes of us? It makes us human, a robot can read and write to, but reason? Here are reasons why education is extremely important.You may be knowing your A’s and B’s and C’s, but are you educated or just literate? No rolling your eyeballs please, there is a difference. Literacy is knowing how to read and write. Education is to be able to reason, to use your ability to read and write to your benefit and to be able to gain your spectrum of knowledge by trying to surge deeper into the literate knowledge imparted to you.  We’ve had debates innumerable about why is it important for every country to increase the literacy rates of its citizens, but is merely doing that enough? No, we do not need just literate citizens, but educated ones too. We do not want to be a group of people who can read and write but make nothing out of it. Wondering what education makes of us? It makes us human, a robot can read and write to, but reason? Here are reasons why education is extremely important.You may be knowing your A’s and B’s and C’s, but are you educated or just literate? No rolling your eyeballs please, there is a difference. Literacy is knowing how to read and write. Education is to be able to reason, to use your ability to read and write to your benefit and to be able to gain your spectrum of knowledge by trying to surge deeper into the literate knowledge imparted to you.  We’ve had debates innumerable about why is it important for every country to increase the literacy rates of its citizens, but is merely doing that enough? No, we do not need just literate citizens, but educated ones too. We do not want to be a group of people who can read and write but make nothing out of it. Wondering what education makes of us? It makes us human, a robot can read and write to, but reason? Here are reasons why education is extremely important.</p>
+    </div>
+
+    <!-- this is the right side navigation-->
+    <div class="col-sm-2 sidenav">
+  </div>
+
+  </div>
+</div>
+
+<footer class="container-fluid text-left">
+<div class="foot">
+  <div class="footer">
+    <a href="#">HOME</a>
+    <a href="#">PROJECT</a>
+    <a href="#">GALLERY</a>
+    <a href="#">ABOUT/CONTACT</a>
+  </div>
+  copyright &copy Company Name
+  Powered by <a href="github">  Hosting site name</a>
+</div>
+</footer>
+
 </body>
 </html>
